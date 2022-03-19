@@ -1,7 +1,5 @@
 const Checkout = require('../database/model/checkout');
 const tracer = require('dd-trace').init();
-const axios = require('axios')
-
 
 class CheckoutController {
   Register(request, response) {
